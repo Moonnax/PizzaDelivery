@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzalivery</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/dialog.css" />
   </head>
   <body>
-    <nav>
+    <nav id="navigation">
       <h1 class="logo">Pizzalivery</h1>
       <ul class="menu">
         <li class="menu-item">
@@ -46,13 +47,16 @@
       <div class="delivery-address">
         <span class="delivery-text">Entregando no endereço:</span
         ><span>Rua Mesquita, 248</span>
+        <button id="change-address">
+          <i data-lucide="chevron-down"></i>
+        </button>
       </div>
       <div class="greeting-user">
         <p>Olá, Daniela</p>
         <a href="">Ver meus pontos</a>
       </div>
     </header>
-    <section>
+    <section class="order-again">
       <img
         class="order-again-img"
         src="./images/160572915436349060139189700225-1080p.jpg"
@@ -63,7 +67,15 @@
       <p class="order-again-price">R$ 93,00</p>
       <a class="order-again-add" href="">Adicionar a sacola</a>
     </section>
+    <section class="address-modal">
+      <button id="close-button" autofocus>Close</button>
+      <p>Greetings, one and all!</p>
+      <form method="dialog">
+        <button>OK</button>
+      </form>
+    </section>
     <script src="./js/script.js"></script>
+    <script src="./js/dialog.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
     <script>
       lucide.createIcons();

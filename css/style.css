@@ -23,6 +23,14 @@ img {
   display: none;
 }
 
+#navigation {
+  z-index: 10;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -51,6 +59,10 @@ img {
 
 .greeting-user {}
 
+.order-again {
+  margin-bottom: 2.5rem;
+}
+
 .order-again-img {
   float: left;
   width: 138px;
@@ -65,7 +77,9 @@ img {
 .order-again-price {
   margin-bottom: 2.5rem;
 }
-.order-again-add {}
+.order-again-add {
+  margin-bottom: 2.5rem;
+}
 
 @media (min-width: 1280px) {
 

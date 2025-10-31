@@ -1,0 +1,39 @@
+.carousel {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: 48px;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 288px;
+  white-space: normal;
+  padding: 0 8px;
+
+  & img {
+    width: 288px;
+    max-height: 160px;
+    border-radius: 12px;
+  }
+}
+
+.carousel-item-title {
+  line-height: 1.4;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(17, 24, 39)
+}
+
+.carousel-item-description {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(75, 85, 99);
+}

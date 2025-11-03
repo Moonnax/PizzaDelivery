@@ -1,11 +1,11 @@
-const addressModal = document.querySelector(".address-modal");
-const closeButton = addressModal.querySelector("#close-button");
+const addressDialog = document.querySelector(".address-dialog");
+const closeButton = addressDialog.querySelector("#close-button");
 const changeAddressButton = document.getElementById("change-address");
 
 closeButton.addEventListener("click", function () {
-  addressModal.classList.remove("open");
+  addressDialog.classList.toggle("open");
 });
 
 changeAddressButton.addEventListener("click", function () {
-  addressModal.classList.add("open");
+  addressDialog.classList.add("open");
 });

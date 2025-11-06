@@ -1,14 +1,14 @@
 .chip {
-  width: min-content;
-  padding: 8px 12px;
-  font-size: 14px;
+  width: max-content;
+  padding: .5rem 0.75rem;
+  font-size: 0.75rem;
   font-weight: 700;
-  background-color: rgba(236, 84, 19, 0.1);
-  color: rgb(236, 84, 19);
-  border-radius: 32px;
+  background-color: var(--brand-primary-light);
+  color: var(--brand-primary);
+  border-radius: 2rem;
   
   &.small {
-    padding: 6px 10px;
-    font-size: 10px;
+    padding: .375rem 0.625rem;
+    font-size: 0.625rem;
   }
 }

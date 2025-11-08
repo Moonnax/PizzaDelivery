@@ -213,6 +213,65 @@ footer {
 
 @media(max-width: 1279px){
 
+body {
+  padding-bottom: 4rem;
+}
+
+.article-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-darkest);
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+
+  .wish {
+  display: flex;
+  width: 378px;
+  height: 190px;
+  margin: 1.2rem 0.5rem;
+  gap: 0.938rem;
+  border-bottom: 1px solid var(--interface-border);
+
+
+}
+
+.wish-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.wish-description {
+  font-size: 1rem;
+  color: var(--text-base);
+  padding-right: 0.5rem;
+}
+
+.wish-price {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--brand-primary);
+}
+
+.wish-img {
+  float: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 12px;
+  margin-left: .688rem;
+  margin-bottom: 1.125rem;
+}
+
+.beetween {
+  width: 254px;
+  height: 162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 }
 
 

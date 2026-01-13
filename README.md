@@ -1,6 +1,7 @@
 # PizzaDelivery
 
 A client-side web application that allows users to browse the menu and place pizza orders online.
+<br>
 The correct branch is "PizzaDelivery", not "Main"
 
 ## Icons

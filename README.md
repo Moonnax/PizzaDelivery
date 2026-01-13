@@ -1,12 +1,7 @@
-# Leonardo
+# PizzaDelivery
 
 A client-side web application that allows users to browse the menu and place pizza orders online.
-
-## Figma
-
-UI design and user flow for the web application.
-
-[Figma Link](https://www.figma.com/design/PxHT00BUPyPdUf8lTQEeLU/Pizzalivery-UI?node-id=18-108&t=0h6D28Zp1vfRH4hK-1)
+The correct branch is "PizzaDelivery", not "Main"
 
 ## Icons
 
